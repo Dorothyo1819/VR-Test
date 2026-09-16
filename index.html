@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Block in AR</title>
+    <title>View in AR</title>
 
     <style>
         body {
@@ -14,25 +14,28 @@
             justify-content: center;
             align-items: center;
             background: #111;
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: Arial, sans-serif;
         }
 
-        a {
-            display: block;
+        .ar-button {
+            display: inline-block;
             padding: 20px 35px;
             background: white;
             color: black;
-            border-radius: 15px;
             text-decoration: none;
+            border-radius: 12px;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
 
-    <a rel="ar" href="./blockAR.usdz">
+    <a
+        rel="ar"
+        href="./blockAR.usdz"
+        class="ar-button">
         View in AR
     </a>
 
